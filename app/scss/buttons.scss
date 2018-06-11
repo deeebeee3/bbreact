@@ -1,0 +1,39 @@
+.btn{
+  border:none;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: .7rem;
+  text-transform: uppercase;
+  background: #f3f3f3;
+
+  &.btn-primary{
+    color: #111;
+    box-shadow: inset 0px 0px 0px 1px #846a29, 0px 1px 1px  rgba(0,0,0,.5);
+    background: #f0c14b;
+    background: linear-gradient(to bottom,  #a88734 0%,#f0c14b 20%);
+    &:active{
+      background: #f0c14b;
+    }
+  }
+
+  &.btn-secondary{
+    color: #fff;
+    box-shadow: inset 0px 0px 0px 1px #000000, 0px 1px 1px  rgba(0,0,0,.5);
+    background: #686868;
+    background: linear-gradient(to bottom, #686868 0%,#000000 20%);
+    &:active{
+      background: #000000;
+    }
+  }
+
+  // layouts
+  &.btn-lg{
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  &.btn-full{
+    width: 100%;
+  }
+
+}

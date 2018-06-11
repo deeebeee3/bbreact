@@ -1,0 +1,27 @@
+// Foundational
+@import "normalize";
+@import "typography";
+@import "grid";
+@import "lists";
+@import "buttons";
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+}
+
+// utility classes
+.text-center{
+  text-align: center;
+}
+
+// Components
+@import "components/product-detail/product-name";
+@import "components/product-detail/product-buy-actions";
+@import "components/product-detail/product-detail";
+@import "components/product-detail/product-price";
+@import "components/product-detail/product-description";
